@@ -1,8 +1,10 @@
 body {
   margin: 0;
-  background-image: url('../images/party-outside.gif');
-  background-repeat: no-repeat;
-  background-size: 100% ;
+  background-image: url('../images/party-outside.gif') ;
+  /* background-repeat: no-repeat; */
+  background-size: 95% ;
+  background-position: center;
+  background-color: black;
 }
 
 h1 {
@@ -27,7 +29,7 @@ h1 {
   /* justify-content: center; */
   left: 0;
   bottom: 0;
-  width: 92%;
+  width: 102%;
   margin: auto;
 }
 
