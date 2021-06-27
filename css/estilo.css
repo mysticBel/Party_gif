@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-image: url('../images/fondo.png');
+  background-image: url('../images/party-outside.gif');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% ;
 }
 
 h1 {
@@ -10,22 +10,31 @@ h1 {
   text-align: center;
   color: white;
   margin: 0;
+  
 }
 
-.gifs_container {
+.gifs_container_1 {
+  position:center;
+  display:flex;
+  margin-top: 20px;
+  margin-left: 75vh;
+  width: 92%;
+}
+.gifs_container_2 {
   position: absolute;
   display: flex;
-  justify-content: center;
+ 
+  /* justify-content: center; */
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 92%;
   margin: auto;
 }
 
 .gifs {
   margin: 0;
   object-fit: cover;
-  background-position: center;
+  /* background-position: center; */
 }
 
 .container {
